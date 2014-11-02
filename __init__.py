@@ -24,7 +24,7 @@ for n in range(len(lin)):
         plist.append(l)
     #d変数ごとに集計、ヒストグラムを表示する
     plt.hist(dump[plist[n]])
-    plt.legend(plist)
+    plt.legend([plist[n]])
     plt.show()
     #hold(False);
     
